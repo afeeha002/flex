@@ -1,0 +1,167 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(219, 235, 219); 
+    height: 100vh;
+    padding: 15px;
+} 
+.main{
+    height: 100%;
+    width:100%;
+    padding: 10px;
+    background-color: rgb(98, 228, 178);
+    border: solid;
+    border-color: green;
+
+}
+.inner-main{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.top{
+    height: 150px;
+    width: 100%;
+    background-color:rgb(134, 179, 206) ; 
+    border: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+.middle{
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bottom{
+    height: 150px;
+    width: 100%;
+    background-color:rgb(134, 179, 206) ; 
+    border: solid;
+    border-color: blue;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+.middle-box1{
+    height: 100%;
+    width: 48%;
+    background-color:darksalmon;
+    border:solid;
+    border-color: brown;
+}
+
+.middle-box2{
+    height: 100%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    
+
+} 
+.middle-box2-1{
+    width:100%;
+    height:49%;
+    border: solid;
+    background-color:darksalmon;
+    border-color: brown;
+
+
+}
+.middle-box2-2{
+    width:100%;
+    height:49%;
+    border: solid;
+    background-color:darksalmon;
+    border-color: brown;
+    
+}
+.top1{
+    width:33%;
+    height:100%;
+    border: solid;
+    border-color: coral;
+    background-color: burlywood;
+}
+.top2{
+    width:33%;
+    height:100%;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    border-color: coral;
+    background-color:burlywood;
+}
+.top3{
+    width:33%;
+    height:100%;
+    border: solid;
+    border-color: coral;
+    background-color:burlywood;
+}
+.bottom1{
+    width:33%;
+    height:100%;
+    border: solid;
+    border-color: rgb(85, 4, 61);
+    background-color: plum;
+}
+.bottom2{
+    width:33%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}.bottom3{
+    width:33%;
+    height:100%;
+    border: solid;
+    border-color: rgb(78, 4, 78);
+    background-color: plum;
+}
+
+.bottom2-box1{
+    height:100%;
+    width: 49%;
+    border: solid;
+    border-color: coral;
+    background-color: burlywood;
+}
+.bottom2-box2{
+    height:100%;
+    width:49%;
+    border: solid;
+    border-color: coral;
+    background-color: burlywood;
+}
+.top2-box1{
+    height: 100%;
+    width:49%;
+    border: solid;
+    border-color: red;
+    background-color: plum;
+}
+.top2-box2{
+    height: 100%;
+    width:49%;
+    border: solid;
+    border-color: red;
+    background-color: plum;
+}
